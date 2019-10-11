@@ -1,3 +1,5 @@
 function SubRedditService($http) {
-  this.getData = function(name)
+  this.getData = function(name) {
+    return $http.get(``)
+  }
 }
