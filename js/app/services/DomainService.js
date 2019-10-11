@@ -1,3 +1,5 @@
 function DomainService($http) {
-  this.
+  this.getPosts = function(domainName) {
+    return $http.get()
+  }
 }
