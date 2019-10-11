@@ -1,5 +1,5 @@
 function DomainService($http) {
-  this.getPosts = function(domainName) {
+  this.getData = function(domainName) {
     return $http.get(`http://localhost:8080/rest/domain/${domainName}`);
   };
 }
