@@ -3,3 +3,7 @@ function SubRedditService($http) {
     return $http.get(`http://localhost:8080/rest/subreddit/${name}`);
   };
 }
+
+angular
+  .module('app')
+  .service('SubRedditService', SubRedditService );
