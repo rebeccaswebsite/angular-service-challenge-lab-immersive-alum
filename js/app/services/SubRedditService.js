@@ -5,5 +5,5 @@ function SubRedditService($http) {
 }
 
 angular
-  .module('app')
+  .module('app') 
   .service('SubRedditService', SubRedditService );
